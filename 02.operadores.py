@@ -36,6 +36,6 @@ print(len('aa') > len('AAA'))  # por cantidad de caracteres
 print(3 > 4 and 'hola' > 'python')
 print(3 > 4 or 'hola' > 'python')
 print(3 < 4 and 'hola' < 'python')
-print('lógicos',3 < 4 or 'hola' > 'python')
+print('lógicos', 3 < 4 or 'hola' > 'python')
 # print(3>4 not 'hola'>'python') #not no se usa asi
-print(not(3>4))#el not invierte el resultado ("true=false", "false=true")
+print(not (3 > 4))  # el not invierte el resultado ("true=false", "false=true")

@@ -55,13 +55,14 @@ mi_lista.clear()  # *vaciar lista
 print(mi_lista)
 print(mi_nueva_lista)
 
-#invierte el order
+# invierte el order
 mi_nueva_lista.reverse()
 print(mi_nueva_lista)
 
-#ordenar
-mi_nueva_lista.sort()#* se le pueden poner multiples parámetros de forma predeterminada usa el orden alfabético/numérico
+# ordenar
+# * se le pueden poner multiples parámetros de forma predeterminada usa el orden alfabético/numérico
+mi_nueva_lista.sort()
 print(mi_nueva_lista)
 
-#Sub-listas
+# Sub-listas
 print(mi_nueva_lista[0:2])

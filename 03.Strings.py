@@ -38,36 +38,41 @@ print(e)
 print(f)
 
 
-#Division(Slice)
+# Division(Slice)
 
-len_Slice=lenguaje[1:3] #* corta y guarda la información en las posiciones marcadas pero menos uno en el valor final
-print(len_Slice) #*Resultado = "yt"
+# * corta y guarda la información en las posiciones marcadas pero menos uno en el valor final
+len_Slice = lenguaje[1:3]
+print(len_Slice)  # *Resultado = "yt"
 
-len_Slice=lenguaje[1:] #* del valor inicial hasta el final
-print(len_Slice) #* "ython"
+len_Slice = lenguaje[1:]  # * del valor inicial hasta el final
+print(len_Slice)  # * "ython"
 
-len_Slice=lenguaje[-2] #* Empieza del final al comienzo pero solo el carácter en la posición resultante
-print(len_Slice) #* o 
+# * Empieza del final al comienzo pero solo el carácter en la posición resultante
+len_Slice = lenguaje[-2]
+print(len_Slice)  # * o
 
-len_Slice=lenguaje[0:6:2] #* Asigna el rango y evita los caracteres múltiplo del tercer valor
-print(len_Slice) #* Pto
+# * Asigna el rango y evita los caracteres múltiplo del tercer valor
+len_Slice = lenguaje[0:6:2]
+print(len_Slice)  # * Pto
 
-#Reverse
-rever_len= lenguaje[::-1] #* Solo invierte el texto (se tiene que iniciar desde -1)
+# Reverse
+# * Solo invierte el texto (se tiene que iniciar desde -1)
+rever_len = lenguaje[::-1]
 print(rever_len)
 
-#Funciones 
-print(lenguaje.capitalize()) #* Letra mayúscula inicial
-print(lenguaje.upper()) #* Todo mayúsculas
-print(lenguaje.lower()) #* Todo minúsculas
-print(lenguaje.count('t')) #* cuanta cuantas veces se repite un carácter
+# Funciones
+print(lenguaje.capitalize())  # * Letra mayúscula inicial
+print(lenguaje.upper())  # * Todo mayúsculas
+print(lenguaje.lower())  # * Todo minúsculas
+print(lenguaje.count('t'))  # * cuanta cuantas veces se repite un carácter
 
-print(lenguaje.isnumeric()) #* te dice si es un numero el str
+print(lenguaje.isnumeric())  # * te dice si es un numero el str
 print('1'.isnumeric())
 
-print(lenguaje.isupper()) #* te dice si esta en mayúsculas el str
-print(lenguaje.islower()) #* te dice si esta en minúsculas el str
+print(lenguaje.isupper())  # * te dice si esta en mayúsculas el str
+print(lenguaje.islower())  # * te dice si esta en minúsculas el str
 
-print(lenguaje.upper().isupper()) #* encadenando funciones
+print(lenguaje.upper().isupper())  # * encadenando funciones
 
-print(lenguaje.startswith('py')) #* Te dice si empieza con algo el str (Cap sensible
+# * Te dice si empieza con algo el str (Cap sensible
+print(lenguaje.startswith('py'))
