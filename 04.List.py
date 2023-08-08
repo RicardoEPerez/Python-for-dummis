@@ -25,7 +25,7 @@ print(mi_lista.count(15))
 print(type(mi_otra_lista[2]))  # * si respeta el tipo de dato en lugar
 
 # añadir elemento al final
-mi_otra_lista.append('BoochiDev')
+mi_otra_lista.append('BocchiDev')
 print(mi_otra_lista)
 
 # añadir elemento donde quiera
