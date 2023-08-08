@@ -7,8 +7,8 @@ print(dato)
 
 print('hola ' + 'mundo')
 
-# * para consultar el tipo de dato
-print(type(False))
+# * para consultar el tipo de dato 
+print(type(True))
 
 #* operadores aritméticos básicos
 print(1+2) # Suma
