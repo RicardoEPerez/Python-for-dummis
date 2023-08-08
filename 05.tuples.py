@@ -19,3 +19,10 @@ mi_otra_tupla = (12, 35, 185, 65, 2.2)
 la_wea = mi_otra_tupla + mi_tupla  # *se pueden sumar en una nueva tupla
 print(la_wea)
 print(type(la_wea))
+
+# se puede cambiar list para poder modificarla
+
+mi_tupla=list(mi_tupla)
+mi_tupla[2]=1.95
+mi_tupla.insert(0,'kawaii')
+mi_tupla=(type(mi_tupla))
